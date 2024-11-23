@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETRUNNER Chat</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #121212;
+            color: #00FF00;
+            padding: 20px;
+        }
+        .cyber-btn {
+            background-color: #000;
+            color: #00FF00;
+            border: 1px solid #00FF00;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .cyber-btn:hover {
+            background-color: #00FF00;
+            color: #000;
+        }
+        .output-box {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #00FF00;
+            background-color: #1d1d1d;
+        }
+        .message-box {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>NETRUNNER Chat</h1>
+
+<div>
+    <input type="text" id="messageInput" placeholder="Enter your message" class="cyber-btn">
+    <button id="sendBtn" class="cyber-btn">Send Message</button>
+</div>
+
+<div class="message-box">
+    <h2>Encrypted Message:</h2>
+    <div id="encryptedOutput" class="output-box"></div>
+</div>
+
+<div class="message-box">
+    <h2>Decrypted Message:</h2>
+    <div id="decryptedOutput" class="output-box"></div>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
