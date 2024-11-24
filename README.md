@@ -30,12 +30,12 @@
 ║ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ║
 ╚══════════════════════════════════════════╝
 
-     RUN▒SEQUENCE >> ./netrunner.py
-     
+RUN▒SEQUENCE >> ./netrunner.py
+
 ┌────[ COMMANDS ]────┐
 │ [1] ENCRYPT       │
 │ [2] DECRYPT       │
-│ [3] EXIT         │
+│ [3] EXIT          │
 └───────────────────┘
 
 [▓▒░ SYSTEM▒WARNING▒░▓]
